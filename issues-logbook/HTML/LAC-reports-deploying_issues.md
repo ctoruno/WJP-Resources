@@ -1,4 +1,4 @@
-# LAC Reports Deploying issues
+# LAC Reports Deploying Issues
 ---
 
 Cellar-Door is the company in charge of deploying the HMTL files in our website. They wanted to keep the LAC country report files in a separate repository from the main website https://worldjusticeproject.org. As Ivan Chaquea explained:
