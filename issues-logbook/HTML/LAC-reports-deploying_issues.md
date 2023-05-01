@@ -9,23 +9,23 @@ However, this bring some issues in how the files are referred in their relative 
 
 1. Update all path references to `assets`. This can be done  by making use of any **find and replace** method in which we search for every occurrence of the string: `assets/`  and we replace it for the longer string `/sites/default/files/rule-of-law/{COUNTRY-YEAR}/assets/`
 
-	Where {COUNTRY-YEAR} refers to the country and year of the report in lower caps and replacing spaces with an hyphen (-). For example: trinidad-and-tobago-2022<br><br>
+	Where {COUNTRY-YEAR} refers to the folder name of each country, which should be the country name plus the year of the report in lower caps and replacing white spaces with an hyphen (-). For example: trinidad-and-tobago-2022<br><br>
 	
 2. Update the reference to the `edit_styles.css` file. This can be done by updating the `href` reference  in the following line of code: 
 		
-	`<link rel=“icon” href=“assets/favicon.ico” type=“icon”>`
+	`<link rel="stylesheet" href="edit_styles.css" media="all">`
 
 	for the longer reference:
 				
-	`<link rel=“icon” href=“/sites/default/files/rule-of-law/{COUNTRY-YEAR}/assets/favicon.ico” type=“icon”>`
+	`<link rel="stylesheet" href="/sites/default/files/rule-of-law/{COUNTRY-YEAR}/edit_styles.css" media="all">`
 
-	Where {COUNTRY-YEAR} refers to the country and year of the report in lower caps and replacing spaces with an hyphen (-). For example: trinidad-and-tobago-2022<br><br>
+	Where {COUNTRY-YEAR} refers to the folder name of each country, which should be the country name plus the year of the report in lower caps and replacing white spaces with an hyphen (-). For example: trinidad-and-tobago-2022<br><br>
 
 3. Update the source for all charts and images. This can be done  by making use of any **find and replace** method in which we search for every occurrence of the string: `charts_and_images/`  and we replace it for the longer string `/sites/default/files/rule-of-law/{COUNTRY-YEAR}/charts_and_images/`
 
-	Where {COUNTRY-YEAR} refers to the country and year of the report in lower caps and replacing spaces with an hyphen (-). For example: trinidad-and-tobago-2022<br><br>
+	Where {COUNTRY-YEAR} refers to the folder name of each country, which should be the country name plus the year of the report in lower caps and replacing white spaces with an hyphen (-). For example: trinidad-and-tobago-2022<br><br>
 
-4. Update the path to the PDF report. This can be done by updating the `src` reference  in the following line of code:
+4. Update the path to the PDF report. This can be done by updating the `onclick` path reference  in the following line of code:
 
 		<a id="MenuDownload" class="btn-level1 menuOpt" onclick="window.open('Report_WJP.pdf')">
     		<img src="assets/images_layout/icnDownload.svg" class="mx-2"><span>Download</span>
@@ -34,10 +34,10 @@ However, this bring some issues in how the files are referred in their relative 
 	for the longer reference:
 
 		<a id="MenuDownload" class="btn-level1 menuOpt" onclick="window.open('/sites/default/files/rule-of-law/{COUNTRY-YEAR}/Report_WJP.pdf')">
-    		<img src="assets/images_layout/icnDownload.svg" class="mx-2"><span>Download</span>
+    		<img src="/sites/default/files/rule-of-law/{COUNTRY-YEAR}/assets/images_layout/icnDownload.svg" class="mx-2"><span>Download</span>
     	</a>
 	
-	Where {COUNTRY-YEAR} refers to the country and year of the report in lower caps and replacing spaces with an hyphen (-). For example: trinidad-and-tobago-2022<br><br>
+	Where {COUNTRY-YEAR} refers to the folder name of each country, which should be the country name plus the year of the report in lower caps and replacing white spaces with an hyphen (-). For example: trinidad-and-tobago-2022. Aditionally, the `src` reference should already have the edit from point number (1).<br><br>
 
 5. Update the source reference in the WJP iframe menu. This can be done by replacing the `src` in the following line of code: 
 		
