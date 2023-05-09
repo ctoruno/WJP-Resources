@@ -11,3 +11,4 @@ Several cleaning issues with the current GPP
 4. Write a program to automatically detect miscoded value labels (R or Python)
 5. When checking the routing, we need to check the non-jump as well as the jump rules (Stata)
 6. Add quality checks (speeder flag, red herring, conflicting answers check, etc)
+7. We can further simplify the normalizations if we had a data map that includes columns about the scale and orientation of the variable.
