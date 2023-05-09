@@ -12,3 +12,9 @@ Several cleaning issues with the current GPP
 5. When checking the routing, we need to check the non-jump as well as the jump rules (Stata)
 6. Add quality checks (speeder flag, red herring, conflicting answers check, etc)
 7. We can further simplify the normalizations if we had a data map that includes columns about the scale and orientation of the variable.
+8. We shouldn't write manually the general info for countries (country name, code, income group). We should have this info in a separate data set and just pull the data using the country codes.
+
+# Requirements
+1. Codebook + Data Map
+2. Include a short and official name for countries.
+3. Use ISO three letter codes for countries
