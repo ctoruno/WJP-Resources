@@ -1,0 +1,88 @@
+---
+title: "Data Validation Plan"
+format:
+  revealjs: 
+    theme: [simple, custom.scss]
+    embed-resources: true
+editor: visual
+---
+
+## Outline {.smaller}
+
+### GPP quantitative data validation {.smaller}
+
+-   **GPP data: Country data validation and outcomes validaton**
+
+-   QRQ data validation
+
+### Qualitative checks
+
+-   Traditional qualitative cross-checks
+
+-   **Massive analysis using AI**
+
+-   Interviews with experts
+
+# GPP Data
+
+## Quantitative Validation {.smaller}
+
+- Country data validation: Pretest
+
+- Country data validation: Full fieldwork
+
+- Outcomes Validation
+
+## Country data validation  {.smaller}
+
+::: {.panel-tabset}
+
+## Sample Representativeness
+
+- Sample distributions
+
+    - By sociodemographic group
+    - By NUTS and country level
+
+
+- Missing values
+- Difficulty score (Face-to-Face only)
+    
+## Patterns and Correspondence
+
+- Internal checks (key variables)
+    - Overtime changes (t-test)
+    - Subnational rankings*
+- External checks (Multilevel analysis)
+    - Aggregated scores analysis (level 1)
+    - Question level analysis (level 2)
+    - Extreme outlier detection (level 3)
+    
+:::
+## Country data validation: Pretest {.smaller}
+
+- INSERTAR FLOW CHART
+
+- Deliverable: A report document along with a supplementary Excel file for each country. 
+
+## Country data validation: Full fieldwork {.smaller}
+
+- INSERTAR FLOW CHART
+
+- Deliverable: Internal report or platform summarizing flags and issues at the country level. 
+
+## Outcomes Validation {.smaller}
+
+- INSERTAR FLOW CHART
+
+- Deliverable: A new tab will be introduced within the internal report platform. This tab will highlight data points that could be considered controversial. 
+
+# Task and Current Status {.smaller}
+
+## Tasks {.smaller}
+
+## Current Status {.smaller}
+
+# Next steps {.smaller}
+
+## Next steps and challenges {.smaller}
