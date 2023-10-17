@@ -7,15 +7,15 @@ format:
 editor: visual
 ---
 
-## Outline {.smaller}
+## Data Validation Process {.smaller}
 
-### GPP quantitative data validation {.smaller}
+### Quantitative Data Validation {.smaller}
 
 -   **GPP data: Country data validation and outcomes validaton**
 
 -   QRQ data validation
 
-### Qualitative checks
+### Qualitative Checks
 
 -   Traditional qualitative cross-checks
 
@@ -23,7 +23,7 @@ editor: visual
 
 -   Interviews with experts
 
-# GPP Data
+# GPP Quantitative Validation
 
 ## Quantitative Validation {.smaller}
 
@@ -71,6 +71,12 @@ editor: visual
 
 - Deliverable: Internal report or platform summarizing flags and issues at the country level. 
 
+## Deliverables Desing 
+
+- HTML country report that contains a list of flags by pillar. 
+
+    - Attach to the HTML 
+
 ## Outcomes Validation {.smaller}
 
 - INSERTAR FLOW CHART
@@ -81,8 +87,75 @@ editor: visual
 
 ## Tasks {.smaller}
 
-## Current Status {.smaller}
+::: {.panel-tabset}
 
-# Next steps {.smaller}
+## Variables Selection
 
-## Next steps and challenges {.smaller}
+**Responsible:** Horacio and Gustavo \
+**Support:** Data Analytics
+
+- TPS selection (90%)
+- Internal data selection (80%)
+- TPS recollection, data and cleaning (90%)
+
+## Functions to Validation
+
+**Responsible:** Data Analytics \
+**Support:** Natalia Rodriguez
+
+- Country data validation: methodology functions creation (30%)
+- Outcomes validation: methodology functions creation (0%)
+
+## Deliverables design
+
+**Responsible:** Data Analytics
+
+- Design of reports and excels for Pretest (30%)
+- Platform design and creation (0%)
+
+:::
+
+## Next steps {.smaller}
+
+- QRQ data validation
+- Pretest data validation
+- Full fieldwork data validation
+- Outcomes validation
+
+# Massive analysis using AI overview
+
+## Developing a news articles gathering and classification system {.smaller}
+
+- Data collection trough a news data API
+
+    - Access to a massive news data archive (1.000.000 articles per month)
+    - Filter data by topic, newspaper and date
+
+- Data labeling
+
+    - WebApp to help team labeling data
+    
+- Model training
+
+    - Machine Learning and Neural Networks (drip modelling)
+    - AWS cloud computing (depends of the model)
+    
+- Model deployment (TBD)
+
+## Implementing extensions (analysis) {.smaller}
+
+
+- Topic Modeling Analysis
+
+    - Identify number of topics, along with keywords and events for each one of them
+    
+- Summary of events
+
+    - Automatic summaries of clustered news data
+    
+- Country/regional report
+    
+    - Summary of main news articles and events highligting key topic.
+  
+
+
