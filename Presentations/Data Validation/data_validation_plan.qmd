@@ -29,9 +29,15 @@ editor: visual
 
 - Country data validation: Pretest
 
+    - The pretest process occurs before the pooling companies start the collection of data. This aims to evaluate that all the material for the full fieldwork is correct
+
 - Country data validation: Full fieldwork
 
+    - After receiving data from pooling companies, we verify representativeness and alignment with each country's patterns, warnings cannot be returned with pooling companies.
+
 - Outcomes Validation
+
+    - The final stage in our data verification process involves validating the estimated outcomes constructed with our dataset.
 
 ## Country data validation  {.smaller}
 
@@ -61,27 +67,44 @@ editor: visual
 :::
 ## Country data validation: Pretest {.smaller}
 
-- INSERTAR FLOW CHART
+- Deliverable: A report document along with a supplementary Excel file for each country
 
-- Deliverable: A report document along with a supplementary Excel file for each country. 
+![](media/pretest.jpeg)
+
 
 ## Country data validation: Full fieldwork {.smaller}
 
-- INSERTAR FLOW CHART
+- Deliverable: Internal report or platform summarizing flags and issues at the country level
 
-- Deliverable: Internal report or platform summarizing flags and issues at the country level. 
+![](media/fullfieldwork.jpeg)
 
-## Deliverables Desing 
 
-- HTML country report that contains a list of flags by pillar. 
-
-    - Attach to the HTML 
 
 ## Outcomes Validation {.smaller}
 
-- INSERTAR FLOW CHART
+- Internal checks
 
-- Deliverable: A new tab will be introduced within the internal report platform. This tab will highlight data points that could be considered controversial. 
+    - Detection of outliers at the sub-national level
+
+- External checks
+
+    - Ranking comparisons validation
+
+## Deliverables Desing {.smaller}
+
+- Pretest data
+
+    - A document highlighting the potential problematic variables
+
+- Full fieldwork data
+    
+    - An HTML country report that will contain all the flags finding in the proposed analysis
+    - Attach to the HTML will be included a complementary excel with all the analysis
+
+- Outcomes Validation
+
+    - The HTML serves as a complement to those generated following the full fieldwork collection
+    - The HTML will primarily focus on presenting the results and highlighting problematic data points
 
 # Task and Current Status {.smaller}
 
